@@ -1,0 +1,2 @@
+osource "/Users/pisces/Downloads/Nordic_Project/nrf53_gc9a01/boards/shields/*/Kconfig.defconfig"
+osource "/opt/nordic/ncs/v2.4.2/nrf/boards/shields/*/Kconfig.defconfig"

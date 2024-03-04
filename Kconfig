@@ -1,0 +1,18 @@
+menu "Zephyr Kernel"
+    source "Kconfig.zephyr"
+endmenu
+
+menu "gc9a01_display_menu"
+    
+    menu "Custom drivers"
+        if DISPLAY
+            menuconfig GC9A01
+                bool "GC9A01 compatible display controller driver"
+                default n
+                select SPI
+                help
+                    Enable driver for GC9A01 compatible controller.
+        endif
+    endmenu
+
+endmenu
